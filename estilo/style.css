@@ -35,8 +35,8 @@ section#login {
     left: 50%;
  
     background-color: #fafafa;
-    width: 250px;
-    height: 515px;
+    width: 280px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
 
@@ -64,7 +64,7 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 form > div.campo {
