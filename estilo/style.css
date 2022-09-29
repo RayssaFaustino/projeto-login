@@ -17,7 +17,7 @@
 }
 
 body, html {
-    background-image: linear-gradient(to bottom,#fafafa, #d3d3d3 50%);
+    background-image: linear-gradient(to bottom, #fafafa, #000000);
     height: 100vh;
     width: 100vw;
 }
@@ -34,18 +34,21 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+ 
     background-color: #fafafa;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: url(../imagens/imagem.jpg) no-repeat center bottom;
-    background-size: 150%;
+    background-size: cover;
     height: 200px;
 }
 
