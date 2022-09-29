@@ -49,7 +49,7 @@ section#login > div#imagem {
     display: block;
     background: url(../imagens/imagem.jpg) no-repeat center bottom;
     background-size: cover;
-    height: 250px;
+    height: 230px;
 }
 
 section#login > div#formulario {
